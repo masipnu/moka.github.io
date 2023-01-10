@@ -66,7 +66,7 @@ Beberapa fitur yang akan dikembangkan dalam proyek aplikasi ☕ moka adalah:
 
 ---
 
-### 🙆 Tim Pengembang
+### 🤹 Tim Pengembang
 Untuk sementara waktu proyek aplikasi ini dikembangkan secara personal oleh saya pribadi (pemilik repo), sembari melihat progres perkembangan aplikasi ini. Menyesuaikan dengan perkembangan teknologi, jika kedepan aplikasi ini dirasa perlu pengembangan (baik penambahan fitur maupun pengurangan, dsb) maka insyaallah kami akan merekrut personalia lain untuk turut berkontribusi dalam pengembangan proyek aplikasi ini.
 
 Untuk sementara aplikasi ini dikembangkan secara lokal dan dihosting di akun hosting sekolah kami, namun source code tetap tersedia secara publik di akun repo [☕ moka](https://github.io/masipnu/moka.github.io).
