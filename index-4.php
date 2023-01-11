@@ -15,7 +15,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-    <title>Dashboard</title>
+    <title>☕ Moka | Siswa</title>
    
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="open-iconic/css/open-iconic-bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
    </head>
    <body class="h-100">
       <nav class="navbar navbar-expand-sm navbar-dark sticky-top bg-warning">
-         <a class="navbar-brand" href="#">☕ Moka | Monitoring Kehadiran</a>
+         <a class="navbar-brand" href="#">☕ Moka | Siswa</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>

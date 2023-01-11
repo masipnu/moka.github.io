@@ -9,34 +9,66 @@
    $data = mysqli_fetch_array($query);
    $jml = mysqli_num_rows($query);
 
-   if($jml > 0){
-      if ($data['role']=1) {
-         $_SESSION['username'] = $data['username'];
-         $_SESSION['password'] = $data['password'];
+// original
+   // if($jml > 0){
+   //    if ($data['role']=1) {
+   //       $_SESSION['username'] = $data['username'];
+   //       $_SESSION['password'] = $data['password'];
+   //       header('location: index-2.php');
+   //    } elseif ($data['role']="2") {
+   //       $_SESSION['username'] = $data['username'];
+   //       $_SESSION['password'] = $data['password'];
+   //       header('location: index-2.php');
+   //    } elseif ($data['role']=3) {
+   //       $_SESSION['username'] = $data['username'];
+   //       $_SESSION['password'] = $data['password'];
+   //       header('location: index-3.php');
+   //    } elseif ($data['role']=4) {
+   //       $_SESSION['username'] = $data['username'];
+   //       $_SESSION['password'] = $data['password'];
+   //       header('location: index-4.php');
+   //    } elseif ($data['role']=5) {
+   //       $_SESSION['username'] = $data['username'];
+   //       $_SESSION['password'] = $data['password'];
+   //       header('location: index-5.php');
+   //    } else {
+   //       $_SESSION['username'] = $data['username'];
+   //       $_SESSION['password'] = $data['password'];
+   //       header('location: index-6.php');
+   //    } 
+   // }else{
+   //    echo "<p align='center'>Login Gagal</p>";
+   //    echo "<meta http-equiv='refresh' content='2; url=login.php'>";
+   // }
+
+
+// mod-multiple-role
+if($jml > 0){
+      $_SESSION['username'] = $data['username'];
+      $_SESSION['password'] = $data['password'];
+      switch ($data['role']) {
+         case 1:
          header('location: index.php');
-      } elseif ($data['role']=2) {
-         $_SESSION['username'] = $data['username'];
-         $_SESSION['password'] = $data['password'];
+         break;
+         case 2:
          header('location: index-2.php');
-      } elseif ($data['role']=3) {
-         $_SESSION['username'] = $data['username'];
-         $_SESSION['password'] = $data['password'];
+         break;
+         case 3:
          header('location: index-3.php');
-      } elseif ($data['role']=4) {
-         $_SESSION['username'] = $data['username'];
-         $_SESSION['password'] = $data['password'];
+         break;
+         case 4:
          header('location: index-4.php');
-      } elseif ($data['role']=5) {
-         $_SESSION['username'] = $data['username'];
-         $_SESSION['password'] = $data['password'];
+         break;
+         case 5:
          header('location: index-5.php');
-      } elseif ($data['role']=6) {
-         $_SESSION['username'] = $data['username'];
-         $_SESSION['password'] = $data['password'];
+         break;
+         case 6:
          header('location: index-6.php');
-      } 
-   }else{
-      echo "<p align='center'>Login Gagal</p>";
-      echo "<meta http-equiv='refresh' content='2; url=login.php'>";
-   }
+         break;
+         }
+}else{
+   echo "<p align='center'>Maaf, Username / Password yang anda masukkan salah!</p>";
+   echo "<meta http-equiv='refresh' content='1; url=login.php'>";
+}
+
 ?>
