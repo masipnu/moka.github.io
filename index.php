@@ -18,6 +18,10 @@
     <title>Dashboard</title>
    
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+   
+    <!-- open-iconic icons -->
     <link href="open-iconic/css/open-iconic-bootstrap.min.css" rel="stylesheet">
     <link href="plugin/DataTables/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link href="plugin/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet">
@@ -37,22 +41,22 @@
 <ul class="navbar-nav d-sm-none">
     <li class="nav-item"> 
         <a class="nav-link text-white" href="?hal=dashboard">
-        	<i class="oi oi-dashboard"></i> Dashboard
+        	<i class="bi-dashboard"></i> Dashboard
         </a> 
     </li>
     <li class="nav-item"> 
     	<a class="nav-link text-white" href="?hal=pegawai">
-    		<i class="oi oi-person"></i> Data Pegawai
+    		<i class="bi-person"></i> Data Pegawai
     	</a> 
     </li>
     <li class="nav-item"> 
     	<a class="nav-link text-white" href="?hal=jabatan">
-    		<i class="oi oi-sort-descending"></i> Data Jabatan
+    		<i class="bi-sort-descending"></i> Data Jabatan
     	</a> 
     </li>
     <li class="nav-item"> 
     	<a class="nav-link text-white" href="logout.php">
-    		<i class="oi oi-account-logout"></i> Keluar
+    		<i class="bi-account-logout"></i> Keluar
     	</a> 
     </li>
 </ul>
@@ -67,22 +71,22 @@
 <ul class="list-group list-group-flush">
     <li class="list-group-item bg-dark"> 
     	<a class="nav-link text-white" href="?hal=dashboard">
-    		<i class="oi oi-dashboard"></i> Dashboard
+    		<i class="bi-columns-gap"></i> Dashboard
     	</a>
     </li>
     <li class="list-group-item bg-dark"> 
     	<a class="nav-link text-white" href="?hal=pegawai">
-    		<i class="oi oi-person"></i> Data Pegawai
+    		<i class="bi-person-circle"></i> Data Pegawai
     	</a> 
     </li>
     <li class="list-group-item bg-dark"> 
     	<a class="nav-link text-white" href="?hal=jabatan">
-    		<i class="oi oi-sort-descending"></i> Data Jabatan
+    		<i class="bi-sort-descending"></i> Data Jabatan
     	</a> 
     </li>
     <li class="list-group-item bg-dark"> 
     	<a class="nav-link text-white" href="logout.php">
-    		<i class="oi oi-account-logout"></i> Keluar
+    		<i class="bi-account-logout"></i> Keluar
     	</a> 
     </li>
 </ul>
