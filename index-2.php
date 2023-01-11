@@ -15,7 +15,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-    <title>☕ Moka | Operator</title>
+    <title>☕ Moka | Operator </title>
    
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="open-iconic/css/open-iconic-bootstrap.min.css" rel="stylesheet">
