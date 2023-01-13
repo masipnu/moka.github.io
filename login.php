@@ -4,8 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     <title>☕ Moka | Monitoring Kehadiran</title>
-   
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- old-bootstrap -->
+    <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- new bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
    </head>
    <body class="h-100 bg-warning d-flex align-items-center">
      <div class="container">

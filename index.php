@@ -17,7 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     <title>Dashboard</title>
    
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- old bootstrap -->
+    <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- new bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
    
@@ -195,8 +200,14 @@
       <p class="m-2 text-center text-muted">Made with <span class=text-danger>&hearts;</span> by : <b>Masipnu</b> Official</p>
      </div> -->
      
-     <script src="js/jquery-3.3.1.min.js"></script>
-     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+     <!-- bootstrap-js -->
+     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+     <!-- old-js -->
+     <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+
+     <!-- new bootstrap -->
+     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
      <script src="plugin/DataTables/js/jquery.dataTables.min.js"></script>
      <script src="plugin/DataTables/js/dataTables.bootstrap4.min.js"></script>
