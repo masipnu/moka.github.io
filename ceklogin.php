@@ -67,8 +67,13 @@ if($jml > 0){
          break;
          }
 }else{
-   echo "<p align='center'>Maaf, Username / Password yang anda masukkan salah!</p>";
-   echo "<meta http-equiv='refresh' content='1; url=login.php'>";
+   echo "<head>";
+   echo "<meta http-equiv='refresh' content='1.5; url=login.php'>";
+   echo "<link rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css'>";
+   echo "</head>";
+   echo "<body class='h-100 bg-dark align-items-center d-flex'>";
+   echo "<p class='text-warning display-5 m-auto' align='center'>🙏 Maaf,<br>Password/ Username anda salah!</p>";
+   echo "</body>";
 }
 
 ?>
